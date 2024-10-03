@@ -1,0 +1,2 @@
+# Next.js STD Card
+  Hii I am Huzaifa and its my Next.js project using props to pass data between components. In this example, props like name, rollNumber, city, time, and campus are passed from the parent component (Home) to the child component (Props). The Props component renders an interactive form where the user can update their details, and the data is dynamically reflected in the "Student ID Card". It uses both Tailwind CSS and custom CSS3 to style the layout and buttons effectively.
