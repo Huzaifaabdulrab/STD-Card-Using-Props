@@ -11,7 +11,7 @@ export default function Props({
   name: string;
   rollNumber: number;
   city:string
-  time:number
+  time:number|string
   campus: string;
 }) {
   const [userName, setUserName] = useState(name);
@@ -27,7 +27,7 @@ export default function Props({
             if (inputName) setUserName(inputName);
 
             const time = prompt("What is your class time? Make sure it's a number");
-            if (time) setTime(Number(time));
+            if (time) setTime((time));
 
             const rollNumber = prompt("Please enter your Roll Number");
             if (rollNumber) setRollNumber(Number(rollNumber));
